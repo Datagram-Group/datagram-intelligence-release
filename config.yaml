@@ -1,0 +1,8 @@
+HTTPServer:
+  IP: "localhost"
+  Port: ":3000"
+
+GRPC:
+  LlamaCityIP: "localhost"
+  LlamaCityPort: "50051"
+  ServerPort: "50052"
