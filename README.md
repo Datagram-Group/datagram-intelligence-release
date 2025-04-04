@@ -14,8 +14,8 @@
     
     - To restart the application, use the command: `./datagram-intelligence -cmd restart`
 
-- Check the application's health:
+- Check the application health:
 
-    - To check the application's health, use curl: `curl your_domain:port/api/up`
+    - To check the health of the application, use the command: `curl your_domain:port/api/up`
 
-    - Note: `your_domain` is the IP or domain of the server, and similarly for `port`. They are configured in the `HTTPServer` section of the `config.yaml` file.
+    - Note: `your_domain` is the IP or domain of the server, and similarly for `port`. These are configured in the `HTTPServer` section of the `config.yaml` file.
