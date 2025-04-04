@@ -1,8 +1,8 @@
 HTTPServer:
   IP: "current_ip"
-  Port: ":3006"
+  Port: ":3007"
 
 GRPC:
   LlamaCityIP: "llama_city_ip"
-  LlamaCityPort: "50057"
-  ServerPort: "50056"
+  LlamaCityPort: "50056"
+  ServerPort: "50057"
