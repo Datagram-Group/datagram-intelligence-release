@@ -27,3 +27,9 @@
     - After installation, use the command `grpcurl -plaintext your_domain:port chat.Health/Check`
 
     - Example: grpcurl -plaintext localhost:50057 chat.Health/Check`
+
+- After All:
+
+    - URL to call the API: http://localhost:3007/api/
+
+    - URL to connect via gRPC: http://localhost:50057/
