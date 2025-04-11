@@ -1,8 +1,15 @@
 HTTPServer:
-  IP: "current_ip"
+  IP: "localhost"
   Port: ":3007"
 
 GRPC:
   LlamaCityIP: "llama_city_ip"
   LlamaCityPort: "50056"
   ServerPort: "50057"
+
+DataBaseConfig:
+  URL: "mongodb://datagram-intelligence:UROsxn6ZIE8ObWw7Dev2@18.166.41.31:27017/datagram-intelligence"
+  DataBaseName: "datagram-intelligence"
+
+GraphQL:
+  URL: "https://node-mon-staging.api.datagram.network/graphql/v1"
